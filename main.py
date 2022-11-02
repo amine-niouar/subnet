@@ -75,15 +75,15 @@ def main():
     bit = numberOctet = 0
     masks = [0,0,0,0]
     fill_range(ranges,masks)
-    range = get_rand_range(ranges)
-    ip = get_rand_ip(range)
-    example = get_rand_oct_mask(192)
-    print(example)
+    #range = get_rand_range(ranges)
+    #ip = get_rand_ip(range)
+    #example = get_rand_oct_mask(192)
+    #print(example)
     #print(range + " " + ip)
 
     
 
-    #for range in ranges:
-        #print (range)
+    for range in ranges:
+        print (range)
 
 main()
